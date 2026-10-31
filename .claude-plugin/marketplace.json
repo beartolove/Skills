@@ -9,12 +9,12 @@
   },
   "plugins": [
     {
-      "name": "supervisor-review",
+      "name": "bear-say",
       "description": "熊熊會怎麼說：模擬資訊單位主管的審閱視角，送件前先自我校準",
       "source": "./",
       "strict": false,
       "version": "0.1.0",
-      "skills": ["./supervisor-review"],
+      "skills": ["./bear-say"],
       "keywords": ["review", "manager", "審閱", "主管", "熊熊會怎麼說", "熊熊說", "熊主管", "熊求救", "熊救命"]
     }
   ]

@@ -6,26 +6,26 @@ beartolove 的 AI Skills 集合。每個 Skill 都有獨立目錄，內含 `SKIL
 
 | Skill | 目錄 | 用途 | 觸發關鍵字 | 版本 |
 |---|---|---|---|---|
-| **supervisor-review** | [`supervisor-review/`](./supervisor-review) | 模擬資訊單位主管的審閱視角，替報告、簡報、簽案、提案、KPI 申請等提供審閱意見、預判質疑與自我思考問題 | 熊熊會怎麼說／熊熊說／熊主管／熊求救／熊救命 | 0.1.0 |
+| **bear-say** | [`bear-say/`](./bear-say) | 模擬資訊單位主管的審閱視角，替報告、簡報、簽案、提案、KPI 申請等提供審閱意見、預判質疑與自我思考問題 | 熊熊會怎麼說／熊熊說／熊主管／熊求救／熊救命 | 0.1.0 |
 
 > 新增 Skill 時，請同步更新此表。
 
 ## 安裝
 
-以下以 `supervisor-review` 為例，換成其他 Skill 時請替換名稱與目錄。
+以下以 `bear-say` 為例，換成其他 Skill 時請替換名稱與目錄。
 
 ### Claude Code
 ```
 /plugin marketplace add beartolove/Skills
-/plugin install supervisor-review@beartolove-skills
+/plugin install bear-say@beartolove-skills
 ```
 更新：`/plugin marketplace update beartolove-skills`
 
 ### Codex
 ```
-$skill-installer https://github.com/beartolove/Skills/tree/main/supervisor-review
+$skill-installer https://github.com/beartolove/Skills/tree/main/bear-say
 ```
-安裝後重啟 Codex。手動安裝則將 `supervisor-review/` 資料夾複製到 `~/.codex/skills/`。
+安裝後重啟 Codex。手動安裝則將 `bear-say/` 資料夾複製到 `~/.codex/skills/`。
 
 ### 跨工具
 ```

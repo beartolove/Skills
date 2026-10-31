@@ -1,0 +1,10 @@
+{
+  "name": "supervisor-review",
+  "description": "熊熊會怎麼說：模擬資訊單位主管的審閱視角，替報告、簽案、提案、KPI 申請等提供審閱意見與預判質疑",
+  "version": "0.1.0",
+  "author": {
+    "name": "熊熊"
+  },
+  "license": "MIT",
+  "keywords": ["review", "manager", "審閱", "主管"]
+}

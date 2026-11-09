@@ -5,26 +5,17 @@
   },
   "metadata": {
     "description": "beartolove 的 Skills 集合",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
-      "name": "bear-say",
-      "description": "熊熊會怎麼說：模擬資訊單位主管的審閱視角，送件前先自我校準",
-      "source": "./",
-      "strict": false,
-      "version": "0.1.0",
-      "skills": ["./bear-say"],
-      "keywords": ["review", "manager", "審閱", "主管", "熊熊會怎麼說", "熊熊說", "熊主管", "熊求救", "熊救命"]
-    },
-    {
       "name": "bear-audit",
-      "description": "熊主管看看：用資訊單位主管的決策思維審查報告、提案、KPI 與進度回報",
+      "description": "熊主管看看：用資訊單位主管的決策思維審查報告、提案、採購評選、KPI、任務分工與進度回報",
       "source": "./",
       "strict": false,
-      "version": "0.1.0",
+      "version": "0.2.0",
       "skills": ["./bear-audit"],
-      "keywords": ["audit", "review", "manager", "decision", "審查", "決策", "主管", "熊主管看看", "請問熊主管", "熊會怎麼說"]
+      "keywords": ["audit", "review", "manager", "decision", "審查", "決策", "主管", "熊主管看看", "請問熊主管", "熊會怎麼說", "熊熊怎麼說"]
     }
   ]
 }
